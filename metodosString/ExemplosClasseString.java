@@ -1,6 +1,12 @@
 package aulas_praticas.metodosString;
 
 public class ExemplosClasseString {
+	/**
+	 * This document is part of my college assignments
+	 * Here I explain a little about some methods of the String class
+	 * This content was taken from the AlgaWorks course
+	 * @author Diogo Gabriel Farias Gomes
+	 */
 	public static void main(String[] args) {
 		
 		//The String class is immutable, so when printing toUpperCase, a new string is created, leaving the original string intact
@@ -43,7 +49,7 @@ public class ExemplosClasseString {
 		System.out.println();
 		
 		//____________________________________________________________________
-		//Para vetorizar palavras unidas em uma so string podemos usar o metodo split para excluir espaços, virgulas, etc
+		//To vectorize words joined into a single string, we can use the split method to exclude spaces, commas, etc.
 		n1 = "Diogo, Gabriel, Farias, Gomes";
 		String[] n1Array = n1.split(", ");
 		for(int i=0; i < n1Array.length; i++) {
@@ -52,7 +58,7 @@ public class ExemplosClasseString {
 		System.out.println();
 		
 		//____________________________________________________________________
-		//Substituir karacteres
+		//Replace characters
 		n1 = "Software analysis";
 		System.out.println(n1.replaceAll("analysis", "Enginer"));
 	}
